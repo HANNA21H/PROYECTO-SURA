@@ -1,75 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil colaborador</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - Hannitah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css.css">
 </head>
+
 <body>
-    <!--encabezado para agregar la imagen y realizar la lista ordenada (si es posible realizarla desplegable)-->
-    <header>
-        <img src="/PROYECTO-SURA/images/LogoPrincipal.png" alt="logo principal">
-        <ul class="menu">
-            <li>Quien soy</li>
-            <li>cursos</li>
-            <li>estilo evaluativo</li>
-            <li>Sugerencias</li>
-        </ul>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">EPSILON</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CURSOS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">CURSOS</a></li>
+            <li><a class="dropdown-item" href="#">CATÁLOGO DE CURSOS</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="index.html">HISTORIAL DE CURSOS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            INSCRÍBETE
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">REGISTRO</a></li>
+            <li><a class="dropdown-item" href="#">INICIO DE SESIÓN</a></li>
+           
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="resume.html">HOJA DE VIDA</a>
+        </li>
+       </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
-    </header>
-    <main>
-        <!--informacion principal, cuerpo de la pagina-->
-        <section class="SectInfoColb">
-            <h1 class="tituloColb">Andres Ramirez</h1>
-            <h2 class="especializacionColb">tecnico en desarrollo de software</h2>
-            <div class="datosPro">
-                <!---realizar contador para cuando se agregue un nuevo curso con JS-->
-                <h3 class="elementsDatos">4 cursos</h3>
-                <h3 class="elementsDatos">250 opiniones</h3>
-                <h3 class="elementsDatos">450 estudiantes</h3>
-            </div>
-        </section>
-        <section class="SectCards">
-            <div>
-                <!--cursos impartidos-->
-                <h2>Cursos impartidos</h2>
-                <div class="Cards">
-                    <div class="elementsCards">
-                        <img class="imgCards"  src="/PROYECTO-SURA/images/python.png" alt="python">
-                        <h2 class="h2Cards"></h2>
-                    </div>
-                    <div class="elementsCards">
-                        <img class="imgCards" src="/PROYECTO-SURA/images/unity.png" alt="Unity">
-                        <h2 class="h2Cards"></h2>
-                    </div>
-                    <div class="elementsCards">
-                        <img class="imgCards" src="/PROYECTO-SURA/images/sql.png" alt="SQL">
-                        <h2 class="h2Cards"></h2>
-                    </div>
-                    <div class="addCards">
-                        <!--Agregar logo de mas cursos-->
-                        <img src="" alt="agregar un nuevo curso">
+  <header class="encabezado">
+    <h1><strong>GRUPO EPSILON</strong></h1>
+  </header>
 
-                    </div>
-                </div>
-            </div>
-            <div class="generalDesc">
-                <p class="parrafDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, hic impedit molestias, tenetur cupiditate obcaecati alias quia nesciunt voluptas rem accusantium qui. Magni voluptatem eius consequatur esse? Similique, tenetur ut?
-                Natus dignissimos eum molestiae libero magni eligendi, earum aliquid nulla animi totam obcaecati tenetur dolorem in labore repellendus saepe rem molestias laboriosam vel officiis nemo iste iusto deserunt quaerat? Ex?
-                Vel ducimus facilis a iusto ipsum, praesentium culpa aliquam modi ipsam eaque qui nostrum aspernatur at? Molestias illum magnam quisquam inventore, pariatur qui minus quae quibusdam adipisci ex! Officiis, blanditiis?
-                Ipsa soluta debitis, harum quaerat praesentium at neque nulla minus hic odio suscipit eveniet similique nisi, laborum, ratione quas necessitatibus! Totam magnam, corporis aliquam accusamus iusto distinctio laudantium iure eos?</p>
-                <div class="socialBottom">
-                    <h2 class="socialTittle">Redes sociales</h2>
-                    <img class="socialImg" src="" alt="instagram">
-                    <img class="socialImg" src="" alt="linkedin">
-                    <img class="socialImg" src="" alt="github">
-                </div>
-            </div>
-        </section>
+  <main class="contenido">
+    <h2><strong>Historial de Cursos</strong></h2>
+
+    <section class="cursos">
+      <div class="curso">
+        <img src="https://segurossura.com/content/uploads/sites/10/2022/09/tigre-sura.jpg" alt="Curso 1">
+        <h3><strong>Curso de Looker Studio</strong></h3>
+        <p>100% completado</p> 
+      </div>
+
+      <div class="curso">
+        <img src="https://media.licdn.com/dms/image/v2/D4E12AQGeTJoekYhhhw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1692804214241?e=2147483647&v=beta&t=kQjj8nSFrbGKf8tGEQGhG1ihOsXbYD-oOi9N7PClQJ4" alt="Curso 2">
+        <h3><strong>Curso de Pensamiento Lógico</strong></h3>
+        <p>20% completado</p>
+      </div>
+
+      <div class="curso">
+        <img src="https://www.conmasfuturo.com/wp-content/uploads/2014/03/scratch11.jpg" alt="Curso 3">
+        <h3><strong>Curso de WordPress No-Code</strong></h3>
+        <p>100% completado</p>
+      </div>
+    </section>
     </main>
     <footer>
+    <section class="descripcion">
+      <p>
+       Somos Grupo Epsilon, un equipo enfocado en la innovación, la educación y el desarrollo
+        tecnológico.Buscamos crear proyectos que combinen creatividad, 
+        aprendizaje y experiencia digital..
+        
+      </p>
 
-    </footer>
+      <div class="redes">
+        <h2><strong>Redes sociales</strong></h2>
+       <a href="https://www.instagram.com/"> <img class="socialImagen" src="/imagenes/ig no fondo.svg" alt="Instagram"></a>
+         <a href="https://www.linkedin.com/"><img class="socialImagen" src="/imagenes/linkedin no fondo.svg" alt="linkedin"></a>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img class="socialImagen" src="/imagenes/correo no fondo.svg" alt="Correo"></a>
+          
+      </div>
+    </section>
+    </footer> 
+  
 
 </body>
 </html>
